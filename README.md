@@ -1,3 +1,6 @@
+### `Compatible with cordova@9.0.0`
+### `Compatible cordova-android@8.0.0`
+
 # cordova-plugin-crosswalk-webview
 
 Makes your Cordova application use the [Crosswalk WebView](https://crosswalk-project.org/)
