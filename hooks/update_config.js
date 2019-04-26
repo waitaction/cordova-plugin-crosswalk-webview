@@ -13,9 +13,9 @@ module.exports = function(context) {
     }
 
     /** @external */
-    var fs = context.requireCordovaModule('fs'),
-        path = context.requireCordovaModule('path'),
-        et = context.requireCordovaModule('elementtree');
+    var fs = require('fs'),
+        path = require('path'),
+        et = require('elementtree');
 
     /** @defaults */
     var xwalkVariables = {},
