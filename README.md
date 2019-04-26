@@ -1,6 +1,8 @@
 ### `Compatible with cordova@9.0.0`
 ### `Compatible cordova-android@8.0.0`
 
+
+
 # cordova-plugin-crosswalk-webview
 
 Makes your Cordova application use the [Crosswalk WebView](https://crosswalk-project.org/)
@@ -24,13 +26,14 @@ instead of the System WebView. Requires cordova-android 4.0 or greater.
 
 ### Install
 
+
 The following directions are for cordova-cli (most people).  Alternatively you can use the [Android platform scripts workflow](PlatformScriptsWorkflow.md).
 
 * Open an existing cordova project, with cordova-android 4.0.0+, and using the latest CLI. Crosswalk variables can be configured as an option when installing the plugin
 * Add this plugin
 
 ```
-$ cordova plugin add cordova-plugin-crosswalk-webview
+$ cordova plugin add https://github.com/waitaction/cordova-plugin-crosswalk-webview.git
 ```
 
 * Build
